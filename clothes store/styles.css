@@ -1,0 +1,123 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  height: 3000px;
+}
+
+/*navbar*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgb(73, 73, 73, 0.5);
+  height: 89px;
+  color: white;align-items: center;
+}
+
+.nav-start{
+  margin-left: 375px;
+}
+
+.nav-middle{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  font-weight: 500;
+}
+
+.search-bar{
+
+  padding: 15px 15px 15px 40px;
+  border-radius: 25px;
+  border: none;
+  display: block;
+  margin-right: 50px;
+}
+
+::placeholder{
+  font-size: 20px;
+}
+
+.search-form{
+  position: relative;
+  display: inline-block;
+}
+
+.pre-nav-design-icon{
+  position: absolute;
+  color: black;
+  width: 40px;
+  top: 12px;
+  left: 0px;
+  padding-left: 10px;
+}
+
+/*sidebar*/
+.sidebar{
+  position: fixed;
+  top: 89px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 2rem 2rem 5rem 2rem;
+  font-weight: 500;
+}
+
+.sidebar div{
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+
+.sidebar .top-content-sidebar div:last-child{
+  border-bottom: none;
+}
+
+.sidebar .together div:last-child{
+  border-bottom: none;
+}
+
+
+.sidebar{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+/***/
+
+
+/*shoes main page*/
+h1{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.shoes-main-page{
+  text-align: center;
+  padding-left: 300px;
+}
+
+.shoes-fotos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 15px;
+  padding-left: 20px;
+}
+
+img{
+  width: 100%;
+}
+
